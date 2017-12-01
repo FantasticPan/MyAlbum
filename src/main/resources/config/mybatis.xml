@@ -21,7 +21,7 @@
         <property name="typeAliasesPackage" value="com.lp.model"/>
     </bean>
 
-    <!--扫包-->
+    <!--DAO接口所在包-->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <property name="basePackage" value="com.lp.dao"/>
     </bean>
