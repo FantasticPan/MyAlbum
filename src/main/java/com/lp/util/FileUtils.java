@@ -16,9 +16,9 @@ import java.io.InputStream;
  */
 public class FileUtils {
 
-    private static final String ACCESS_KEY = "";//这里填密钥管理里面的密钥
-    private static final String SECRET_KEY = "";
-    private static final String BUCKET_NAME = "photos";    //填在七牛云创建的 Bucket 名字
+    private static final String ACCESS_KEY = "***";//这里填密钥管理里面的密钥
+    private static final String SECRET_KEY = "***";
+    private static final String BUCKET_NAME = "***";    //填在七牛云创建的 Bucket 名字
 
     /**
      * 上传图片到七牛云存储
